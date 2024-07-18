@@ -1,0 +1,40 @@
+{
+    "flex-layout.row#test__one--home":{
+        "title": "text ro one home",
+        "children": [
+            "flex-layout.col#test__one--home",
+            "flex-layout.col#test__two--home"
+        ],
+        "props":{    
+        }
+    },
+
+    "flex-layout.col#test__one--home":{
+        "title": "text col one home",
+        "children": [
+            "rich-text"
+        ],
+        "props":{
+            "width": "20%"
+        }
+    },
+
+    "flex-layout.col#test__two--home":{
+        "title": "text col two home",
+        "children": [
+            "rich-text"
+        ],
+        "props":{
+            "width": "80%"
+        }
+    },
+
+  "rich-text": { 
+    "props": { 
+      "text": "HOLA MUNDO DESDE VTEX IO",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  }
+}
