@@ -39,19 +39,19 @@
   "image#example_1": {
     "title": " image one ",
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+      "src": "assets/img/imagen1.jpg"
     }
   },
   "image#example_2": {
     "title": " image two ",
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+      "src": "assets/img/imagen2.jpg"
     }
   },
   "image#example_3": {
     "title": " image three ",
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+      "src": "assets/img/imagen3.jpg"
     }
   },
   "flex-layout.row#text__one--siler-home": {

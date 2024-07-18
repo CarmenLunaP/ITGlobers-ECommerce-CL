@@ -15,7 +15,10 @@
             "rich-text"
         ],
         "props":{
-            "width": "20%"
+            "width": "20%",
+            "blockClass":[
+                "col__one--text"
+            ]
         }
     },
 
@@ -25,7 +28,10 @@
             "rich-text"
         ],
         "props":{
-            "width": "80%"
+            "width": "80%",
+            "blockClass":[
+                "col__two--text"
+            ]
         }
     },
 
