@@ -1,0 +1,76 @@
+
+{
+  "info-card": {
+   "props": {
+     "id": "info-card-home",
+     "imageUrl":"assets/img/ecommerceaward.png",
+     
+     "isFullModeStyle": false,
+     "textPosition": "left",
+     "headline": "Headline",
+     "bodyText":"Builder platform is made by..",
+     "callToActionText": "Ver precio",
+     "callToActionUrl": "/sale/d",
+     "blockClass": "info-card-home"
+    //  "textAlignment": "center"
+
+   }
+  
+}
+}
+
+
+
+
+
+//  {
+//    "info-card": {
+//     "props": {
+//       "id": "info-card-home",
+//       "imageUrl":"assets/img/Cardelement-Mediaitem.png",
+      
+//       "isFullModeStyle": false,
+//       "headline": "Headline",
+//       "bodyText":"Builder platform is made by..",
+//       "callToActionText": "Ver precio",
+//       "callToActionUrl": "/sale/d",
+//       "blockClass": "info-card-home"
+//     }
+   
+//  }
+//  }
+
+ 
+// {
+//   "flex-layout.col#info-card-row": {
+//     "children": [
+//       "image#first-image",
+//       "info-card",
+//       "image#second-image"
+//     ]
+//   },
+//   "image#first-image": {
+//     "props": {
+//       "src": "assets/img/Cardelement-Mediaitem.png",
+//       "alt": "Primera imagen"
+//     }
+//   },
+//   "image#second-image": {
+//     "props": {
+//       "src": "assets/img/ecommerceaward.png",
+//       "alt": "Segunda imagen"
+//     }
+//   },
+//  "info-card": {
+//     "props": {
+//       "id": "info-card-home",
+//       "imageUrl":"assets/img/Cardelement-Mediaitem.png",
+//       "isFullModeStyle": false,
+//       "headline": "Headline",
+//       "bodyText":"Builder platform is made by..",
+//       "callToActionText": "Ver precio",
+//       "callToActionUrl": "/sale/d",
+//       "blockClass": "info-card-home"
+//     }
+//  }
+// }

@@ -1,0 +1,29 @@
+.infoCardContainer{
+    display: flex;
+    text-align: left;
+    margin-left: 0px;
+}
+/* .infoCardImage {
+   
+   align-content: flex-start;
+} */
+
+
+
+.infoCardImage{
+    width: 70%;
+
+}
+
+.imageElement{
+    width: 100%;
+    margin: 0%;
+}
+
+.infoCardImageContainer{
+   
+   
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 0px;
+}

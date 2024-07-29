@@ -1,9 +1,25 @@
+// {
+//   "store.home": { 
+//     "blocks": [
+//       "image#example",
+//       "rich-text",
+//       // "info-card",
+//       // "flex-layout.row#test__one--home",
+//       // "list-context.image-list#demo",
+//       "slider-layout#text-test",
+//        "list-context.product-list"
+//     ]
+//   }
+// }
+
 {
   "store.home": { 
     "blocks": [
-      "flex-layout.row#test__one--home",
-      "list-context.image-list#demo",
-      "slider-layout#text-test"
+      "image#example",
+      "rich-text",
+      
+      "slider-layout#text-test",
+      "list-context.product-list"
     ]
   }
 }

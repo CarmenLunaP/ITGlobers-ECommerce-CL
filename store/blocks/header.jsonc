@@ -48,9 +48,10 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
-      "width": "80"
-    }
+      "url": "assets/img/Icon_Black.svg",
+     // "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
+      "width": "40"
+          }
   },
   "header-layout.mobile": {
     "children": ["sticky-layout#mobile"]
