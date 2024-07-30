@@ -1,0 +1,513 @@
+{
+    "header-layout#global": {
+      "children": [
+        "sticky-layout#desktop"
+      ]
+    },
+    "sticky-layout#desktop": {
+      "props": {
+        "blockClass": "sticky-header"
+      },
+      "children": [
+        "flex-layout.row#desktop",
+        "flex-layout.row#menu-bar"
+      ]
+    },
+    "flex-layout.row#desktop": {
+      "props": {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "fullWidth": true
+      },
+      "children": [
+        "flex-layout.col#logo-desktop",
+        "flex-layout.col#spacer",
+        "search-bar",
+        "locale-switcher",
+        "minicart.v2",
+        "login"
+        
+      ]
+    },
+    "flex-layout.col#spacer": {
+      "props": {
+        "width": "grow"
+      }
+    },
+    "flex-layout.col#logo-desktop": {
+      "props": {
+        "verticalAlign": "middle"
+      },
+      "children": ["logo"]
+    },
+    "logo": {
+      "props": {
+        "title": "Logo",
+        "href": "/",
+        "url": "assets/img/Icon_Black.svg",
+        "width": "40"
+      }
+    },
+    "flex-layout.row#menu-bar": {
+      "props": {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "fullWidth": true,
+        "blockClass": "menu-bar"
+      },
+      "children": [
+        "flex-layout.col#menu-item1",
+        "flex-layout.col#menu-item2",
+        "flex-layout.col#menu-item3",
+        "flex-layout.col#menu-item4"
+      ]
+    },
+    "flex-layout.col#menu-item1": {
+      "props": {
+        "horizontalAlign": "center",
+        "verticalAlign": "center"
+      },
+      "children": [
+        "icon#menu-item1",
+        "rich-text#menu-text1"
+      ]
+    },
+    "flex-layout.col#menu-item2": {
+      "props": {
+        "horizontalAlign": "center",
+        "verticalAlign": "center"
+      },
+      "children": [
+        "icon#menu-item2",
+        "rich-text#menu-text2"
+      ]
+    },
+    "flex-layout.col#menu-item3": {
+      "props": {
+        "horizontalAlign": "center",
+        "verticalAlign": "center"
+      },
+      "children": [
+        "icon#menu-item3",
+        "rich-text#menu-text3"
+      ]
+    },
+    "flex-layout.col#menu-item4": {
+      "props": {
+        "horizontalAlign": "center",
+        "verticalAlign": "center"
+      },
+      "children": [
+        "icon#menu-item4",
+        "rich-text#menu-text4"
+      ]
+    },
+    "icon#menu-item1": {
+      "props": {
+        "id": "menu-item1",
+        "url": "/assets/img/fast-delivery.png"
+      }
+    },
+    "icon#menu-item2": {
+      "props": {
+        "id": "menu-item2",
+        "url": "/assets/img/fast-delivery.png"
+      }
+    },
+    "icon#menu-item3": {
+      "props": {
+        "id": "menu-item3",
+        "url": "/assets/img/fast-delivery.png"
+      }
+    },
+    "icon#menu-item4": {
+      "props": {
+        "id": "menu-item4",
+        "url": "/assets/img/fast-delivery.png"
+      }
+    },
+    "rich-text#menu-text1": {
+      "props": {
+        "text": "Item 1",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "font": "t-heading-6",
+        "blockClass": ["menu-text"]
+      }
+    },
+    "rich-text#menu-text2": {
+      "props": {
+        "text": "Item 2",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "font": "t-heading-6",
+        "blockClass": ["menu-text"]
+      }
+    },
+    "rich-text#menu-text3": {
+      "props": {
+        "text": "Item 3",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "font": "t-heading-6",
+        "blockClass": ["menu-text"]
+      }
+    },
+    "rich-text#menu-text4": {
+      "props": {
+        "text": "Item 4",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "font": "t-heading-6",
+        "blockClass": ["menu-text"]
+      }
+    },
+
+
+    
+    "header-layout.mobile": {
+      "children": ["sticky-layout#mobile"]
+    },
+    "sticky-layout#mobile": {
+      "children": ["flex-layout.row#mobile"]
+    },
+
+
+    "flex-layout.row#mobile": {
+      "children": [
+        "drawer",
+        "logo",
+        "flex-layout.col#spacer",
+        "login",
+        "minicart.v2"
+      ],
+      "props": {
+        "blockClass": "main-header-mobile",
+        "preventHorizontalStretch": true,
+        "preserveLayoutOnMobile": true,
+        "fullWidth": true
+      }
+    },
+    "drawer": {
+      "children": []
+    }
+  }
+  
+
+
+// {
+  
+//     "header-layout.desktop": {
+//       "children": [
+//         "sticky-layout#desktop"
+//       ]
+//     },
+//     "sticky-layout#desktop": {
+//       "props": {
+//         "blockClass": "sticky-header"
+//       },
+//       "children": ["flex-layout.row#desktop"]
+//     },
+//     "flex-layout.row#desktop": {
+//       "props": {
+//         "horizontalAlign": "center",
+//         "verticalAlign": "center",
+//         "preventHorizontalStretch": true,
+//         "preventVerticalStretch": true,
+//         "fullWidth": true
+//       },
+//       "children": [
+//         "flex-layout.col#logo-desktop",
+//         "flex-layout.col#spacer",
+//         "search-bar",
+//         "locale-switcher",
+//         "login",
+//         "minicart.v2"
+//       ]
+//     },
+//     "flex-layout.col#spacer": {
+//       "props": {
+//         "width": "grow"
+//       }
+//     },
+//     "flex-layout.col#logo-desktop": {
+//       "props": {
+//         "verticalAlign": "middle"
+//       },
+//       "children": ["logo"]
+//     },
+//     "logo": {
+//       "props": {
+//         "title": "Logo",
+//         "href": "/",
+//         "url": "assets/img/Icon_Black.svg",
+//        // "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
+//         "width": "40"
+//             }
+//     },
+//     "header-layout.mobile": {
+//       "children": ["sticky-layout#mobile"]
+//     },
+//     "sticky-layout#mobile": {
+//       "children": ["flex-layout.row#mobile"]
+//     },
+//     "flex-layout.row#mobile": {
+//       "children": [
+//         "drawer",
+//         "logo",
+//         "flex-layout.col#spacer",
+//         "login",
+//         "minicart.v2"
+//       ],
+//       "props": {
+//         "blockClass": "main-header-mobile",
+//         "preventHorizontalStretch": true,
+//         "preserveLayoutOnMobile": true,
+//         "fullWidth": true
+//       }
+//     },
+//     "drawer": {
+//       "children": []
+//     },
+
+
+//     // menu
+//         "header-row#menu-icon": {
+//           "title": "menu icons",
+//           "children": ["flex-layout.row#section-two-icon-menu"],
+//           "props": {
+//           }
+//         },
+//         "flex-layout.row#section-two-icon-menu": {
+//           "title": "menu header options section two",
+//           "props": {
+           
+//             "topMenuIcons": true,
+//             "preserveLayoutOnMobile": true,
+//             "blockClass": ["header-container-menu-desktop"]
+//           },
+//           "children": [
+//             "flex-layout.col#option-food"
+//           ]
+//         },
+//         "flex-layout.col#option-food": {
+//             "title": "container option food",
+//             "props": {
+//               "verticalAlign": "middle"
+//             },
+//             "children": ["icon#food", "rich-text#text-section-header-food"]
+//           },
+//           "icon#food": {
+//             "props": {
+//               "id": "food"
+//             }
+//           },
+//           "rich-text#text-section-header-food": {
+//             "title": "text icon food",
+//             "props": {
+//               "text": "Food",
+//               "textAlignment": "LEFT",
+//               "textPosition": "LEFT",
+//               "font": "t-heading-10",
+//               "blockClass": ["texto-section-header-desktop"]
+//             }
+//           }
+
+
+
+//   }
+
+
+// {
+//     "header-layout.desktop": {
+//       "children": [
+//         "sticky-layout#desktop"
+//       ]
+//     },
+//     "sticky-layout#desktop": {
+//       "props": {
+//         "blockClass": "sticky-header"
+//       },
+//       "children": [
+//         "flex-layout.row#desktop",
+//         "flex-layout.row#menu-bar"
+//       ]
+//     },
+//     "flex-layout.row#desktop": {
+//       "props": {
+//         "horizontalAlign": "center",
+//         "verticalAlign": "center",
+//         "preventHorizontalStretch": true,
+//         "preventVerticalStretch": true,
+//         "fullWidth": true
+//       },
+//       "children": [
+//         "flex-layout.col#logo-desktop",
+//         "flex-layout.col#spacer",
+//         "search-bar",
+//         "locale-switcher",
+//         "login",
+//         "minicart.v2"
+//       ]
+//     },
+//     "flex-layout.col#spacer": {
+//       "props": {
+//         "width": "grow"
+//       }
+//     },
+//     "flex-layout.col#logo-desktop": {
+//       "props": {
+//         "verticalAlign": "middle"
+//       },
+//       "children": ["logo"]
+//     },
+//     "logo": {
+//       "props": {
+//         "title": "Logo",
+//         "href": "/",
+//         "url": "assets/img/Icon_Black.svg",
+//         "width": "40"
+//       }
+//     },
+//     "flex-layout.row#menu-bar": {
+//       "props": {
+//         "horizontalAlign": "center",
+//         "verticalAlign": "center",
+//         "fullWidth": true,
+//         "blockClass": "menu-bar"
+//       },
+//       "children": [
+//         "flex-layout.col#menu-item1",
+//         "flex-layout.col#menu-item2",
+//         "flex-layout.col#menu-item3",
+//         "flex-layout.col#menu-item4"
+//       ]
+//     },
+//     "flex-layout.col#menu-item1": {
+//       "props": {
+//         "horizontalAlign": "center",
+//         "verticalAlign": "center"
+//       },
+//       "children": [
+//         "icon#menu-item1",
+//         "rich-text#menu-text1"
+//       ]
+//     },
+//     "flex-layout.col#menu-item2": {
+//       "props": {
+//         "horizontalAlign": "center",
+//         "verticalAlign": "center"
+//       },
+//       "children": [
+//         "icon#menu-item2",
+//         "rich-text#menu-text2"
+//       ]
+//     },
+//     "flex-layout.col#menu-item3": {
+//       "props": {
+//         "horizontalAlign": "center",
+//         "verticalAlign": "center"
+//       },
+//       "children": [
+//         "icon#menu-item3",
+//         "rich-text#menu-text3"
+//       ]
+//     },
+//     "flex-layout.col#menu-item4": {
+//       "props": {
+//         "horizontalAlign": "center",
+//         "verticalAlign": "center"
+//       },
+//       "children": [
+//         "icon#menu-item4",
+//         "rich-text#menu-text4"
+//       ]
+//     },
+//     "icon#menu-item1": {
+//       "props": {
+//         "id": "menu-item1",
+//         "url": "/assets/img/fast-delivery.png"
+//       }
+//     },
+//     "icon#menu-item2": {
+//       "props": {
+//         "id": "menu-item2",
+//         "url": "/assets/img/fast-delivery.png"
+//       }
+//     },
+//     "icon#menu-item3": {
+//       "props": {
+//         "id": "menu-item3",
+//         "url": "/assets/img/fast-delivery.png"
+//       }
+//     },
+//     "icon#menu-item4": {
+//       "props": {
+//         "id": "menu-item4",
+//         "url": "/assets/img/fast-delivery.png"
+//       }
+//     },
+//     "rich-text#menu-text1": {
+//       "props": {
+//         "text": "Item 1",
+//         "textAlignment": "CENTER",
+//         "textPosition": "CENTER",
+//         "font": "t-heading-6",
+//         "blockClass": ["menu-text"]
+//       }
+//     },
+//     "rich-text#menu-text2": {
+//       "props": {
+//         "text": "Item 2",
+//         "textAlignment": "CENTER",
+//         "textPosition": "CENTER",
+//         "font": "t-heading-6",
+//         "blockClass": ["menu-text"]
+//       }
+//     },
+//     "rich-text#menu-text3": {
+//       "props": {
+//         "text": "Item 3",
+//         "textAlignment": "CENTER",
+//         "textPosition": "CENTER",
+//         "font": "t-heading-6",
+//         "blockClass": ["menu-text"]
+//       }
+//     },
+//     "rich-text#menu-text4": {
+//       "props": {
+//         "text": "Item 4",
+//         "textAlignment": "CENTER",
+//         "textPosition": "CENTER",
+//         "font": "t-heading-6",
+//         "blockClass": ["menu-text"]
+//       }
+//     },
+//     "header-layout.mobile": {
+//       "children": ["sticky-layout#mobile"]
+//     },
+//     "sticky-layout#mobile": {
+//       "children": ["flex-layout.row#mobile"]
+//     },
+//     "flex-layout.row#mobile": {
+//       "children": [
+//         "drawer",
+//         "logo",
+//         "flex-layout.col#spacer",
+//         "login",
+//         "minicart.v2"
+//       ],
+//       "props": {
+//         "blockClass": "main-header-mobile",
+//         "preventHorizontalStretch": true,
+//         "preserveLayoutOnMobile": true,
+//         "fullWidth": true
+//       }
+//     },
+//     "drawer": {
+//       "children": []
+//     }
+//   }
+  
