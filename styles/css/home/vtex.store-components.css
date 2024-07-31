@@ -1,3 +1,5 @@
+/* Menu */
+
 .openIconContainer{
     display: flex;
     align-items: end;
@@ -6,10 +8,32 @@
 }
 
 .logoImage {
-    margin-top: 10px;
+    margin-top: 15px;
     padding: 0%;
-   
 }
+
+.searchIcon {
+    margin-top: 10px;
+}
+
+/* -------------------------- */
+
+/* Boton de comprar */
+
+/* //solo imagen */
+.imageElement {
+    width: 100%;
+}
+/* cuando es infocard */
+
+/* .imageElement{
+    width: 328px;
+    margin: 0%;
+} */
+
+/* ------------------------------------ */
+/* Infocard del slider */
+
 
 .infoCardContainer{
     display: flex;
@@ -21,11 +45,6 @@
     width: 36.14px;
 }
 
-
-.imageElement{
-    width: 328px;
-    margin: 0%;
-}
 
 .infoCardContainer {
     align-items: flex-start;

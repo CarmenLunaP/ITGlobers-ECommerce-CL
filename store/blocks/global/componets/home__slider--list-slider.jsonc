@@ -12,21 +12,35 @@
       "blockClass": "carousel"
     },
     "children": [
+      "image#imgSliderMobile",
+      "image#imgSliderMobile",
+      "image#imgSliderMobile",
+      "image#imgSliderMobile",
+      "image#imgSliderMobile",
+      "image#imgSliderMobile",
+      "image#imgSliderMobile",
+      "image#imgSliderMobile"
+
       // "info-card",
       // "info-card",
       // "info-card"
-      "flex-layout.row#text__one--siler-home",
-      "flex-layout.row#text__one--siler-home",
-      "flex-layout.row#text__one--siler-home",
-      "flex-layout.row#text__one--siler-home",
-      "flex-layout.row#text__one--siler-home",
-      "flex-layout.row#text__one--siler-home",
-      "flex-layout.row#text__one--siler-home",
-      "flex-layout.row#text__one--siler-home"
+      //   "flex-layout.row#text__one--siler-home",
+      //   "flex-layout.row#text__one--siler-home",
+      //   "flex-layout.row#text__one--siler-home",
+      //   "flex-layout.row#text__one--siler-home",
+      //   "flex-layout.row#text__one--siler-home",
+      //   "flex-layout.row#text__one--siler-home",
+      //   "flex-layout.row#text__one--siler-home",
+      //   "flex-layout.row#text__one--siler-home"
     ]
   },
 
-  
+  "image#imgSliderMobile": {
+    "title": " image one ",
+    "props": {
+      "src": "assets/img/InfoCardSliderMobile.jpg"
+    }
+  },
 
   // "rich-text#1": {
   //   "title": "text one",
@@ -57,11 +71,8 @@
 
   "flex-layout.row#text__one--siler-home": {
     "title": "slider row text one",
-    "children": [
-     "image#example_1",
-       "info-card"
-     ]
-   }
+    "children": ["image#example_1", "info-card"]
+  }
   // "flex-layout.col#text__one--siler-home": {
   //   "title": "slider col text one",
   //   "children": ["image#example_1"],
@@ -90,5 +101,4 @@
   //     "width": "25%"
   //   }
   // }
-
 }

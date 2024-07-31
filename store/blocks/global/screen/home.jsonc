@@ -1,7 +1,8 @@
 {
   "store.home": { 
     "blocks": [
-      "info-card#homeMobileHero",
+      "image#BtnBuyNow",
+      //"info-card#homeMobileHero",
       "rich-text",
       "slider-layout#text-test",
       //"list-context.product-list",
