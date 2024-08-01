@@ -1,7 +1,14 @@
 {
-  "header-layout#global": {
+  "header": {
     "blocks": [
-      "header-row"
+      "header-layout.mobile",
+       "header-layout.desktop"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.mobile",
+       "header-layout.desktop"
     ]
   }
 }
