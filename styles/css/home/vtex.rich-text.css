@@ -1,7 +1,14 @@
+
 .paragraph {
-    font-family: "Lexend-Regular";
+    font-family: lexend;
     font-size: 16px;
     margin-left: 10px;
+    
+}
+
+.paragraph--menu-header{
+    font-family: lexend;
+    font-size: 12px;
     
 }
 

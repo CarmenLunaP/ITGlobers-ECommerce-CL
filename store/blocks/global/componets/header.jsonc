@@ -1,3 +1,4 @@
+
 {
   "header-layout.desktop": {
     "children": ["sticky-layout#desktop"]
@@ -37,6 +38,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
+      
       "url": "assets/img/Icon_Black.svg",
       // "url": "assets/img/Icon_Black.svg",
       "width": "40"
@@ -51,16 +53,14 @@
   //children 2
   "flex-layout.row#menu-bar": {
     "props": {
-      "horizontalAlign": "center",
-      "verticalAlign": "center",
+      // "horizontalAlign": "center",
+      // "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": true,
       "blockClass": "menu-bar",
-      "topMenuIcons": true,
-      // "display":"flex",
-      "display":"flex",
-      "flex-direction": "row"
+      "topMenuIcons": true
+      
 
     },
     "children": [
@@ -92,10 +92,10 @@
   "icon#menu-food": {
     "props": {
       "id": "food",
-      // "href": "/",
-      "url": "/assets/img/hotel.svg",
-      "width": "40",
-      "blockClass": "menu-food",
+      "href": "/",
+      "url": "arquivos/fastfood.svg",
+      // "url": "/assets/img/hotel.svg",
+     "blockClass": "menu-food",
       "style": {
         "display": "inline-block"
       }
