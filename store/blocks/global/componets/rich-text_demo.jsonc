@@ -1,41 +1,4 @@
-{
-    // "flex-layout.row#test__one--home":{
-    //     "title": "text ro one home",
-    //     "children": [
-    //         "flex-layout.col#test__one--home",
-    //         "flex-layout.col#test__two--home"
-    //     ],
-    //     "props":{    
-    //     }
-    // },
-
-    // "flex-layout.col#test__one--home":{
-    //     "title": "text col one home",
-    //     "children": [
-    //         "rich-text"
-    //     ],
-    //     "props":{
-    //         "width": "50%",
-    //         "blockClass":[
-    //             "col__one--text"
-    //         ]
-    //     }
-    // },
-
-    // "flex-layout.col#test__two--home":{
-    //     "title": "text col two home",
-    //     "children": [
-    //         "rich-text"
-    //     ],
-    //     "props":{
-    //         "width": "50%",
-    //         "blockClass":[
-    //             "col__two--text"
-    //         ]
-    //     }
-    // },
-
-  "rich-text": { 
+{  "rich-text": { 
     "props": { 
       "text": "An amazing product.",
       "textAlignment": "LEFT",

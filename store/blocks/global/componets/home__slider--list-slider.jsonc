@@ -24,15 +24,7 @@
       // "info-card",
       // "info-card",
       // "info-card"
-      //   "flex-layout.row#text__one--siler-home",
-      //   "flex-layout.row#text__one--siler-home",
-      //   "flex-layout.row#text__one--siler-home",
-      //   "flex-layout.row#text__one--siler-home",
-      //   "flex-layout.row#text__one--siler-home",
-      //   "flex-layout.row#text__one--siler-home",
-      //   "flex-layout.row#text__one--siler-home",
-      //   "flex-layout.row#text__one--siler-home"
-    ]
+     ]
   },
 
   "image#imgSliderMobile": {
