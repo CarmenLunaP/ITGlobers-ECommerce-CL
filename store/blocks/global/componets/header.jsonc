@@ -50,6 +50,18 @@
       "width": "40"
     }
   },
+
+  "login": {
+  "props": {
+    "iconLabel": "login",
+    "emailAndPasswordTitle": "LOG-IN",
+    "accessCodeTitle": "Acess Code LOG-IN",
+    "emailPlaceholder": "e-mail",
+    "passwordPlaceholder": "password",
+    "showPasswordVerificationIntoTooltip": true
+  }
+},
+
  
   //childres 2
   "flex-layout.row#menu-bar": {
@@ -87,7 +99,11 @@
   },
   "icon#menu-food": {
     "props": {
-      "id": "food"
+      "id": "food",
+      "size":"25px",
+      "viewBox":"0 0 20 20"
+     
+
     }
   },
   "rich-text#menu-food": {
@@ -110,7 +126,9 @@
   },
   "icon#menu-fitness": {
     "props": {
-      "id": "fitness"
+      "id": "fitness",
+      "size":"25px",
+      "viewBox":"0 0 20 20"
     }
   },
   "rich-text#menu-fitness": {
@@ -134,7 +152,9 @@
   },
   "icon#menu-artico": {
     "props": {
-      "id": "artico"
+      "id": "artico",
+      "size":"25px",
+      "viewBox":"0 0 20 20"
     }
   },
   "rich-text#menu-artico": {
@@ -158,7 +178,9 @@
   },
   "icon#menu-Poolday": {
     "props": {
-      "id": "Poolday"
+      "id": "Poolday",
+      "size":"25px",
+      "viewBox":"0 0 20 20"
     }
   },
   "rich-text#menu-Poolday": {
@@ -182,7 +204,9 @@
   },
   "icon#menu-hotel": {
     "props": {
-      "id": "hotel"
+      "id": "hotel",
+      "size":"25px",
+      "viewBox":"0 0 20 20"
     }
   },
   "rich-text#menu-hotel": {
@@ -206,7 +230,9 @@
   },
   "icon#menu-house": {
     "props": {
-      "id": "house"
+      "id": "house",
+      "size":"25px",
+      "viewBox":"0 0 20 20"
     }
   },
   "rich-text#menu-house": {
@@ -230,7 +256,9 @@
   },
   "icon#menu-natural": {
     "props": {
-      "id": "natural"
+      "id": "natural",
+      "size":"25px",
+      "viewBox":"0 0 20 20"
     }
   },
   "rich-text#menu-natural": {
@@ -254,7 +282,9 @@
   },
   "icon#menu-closet": {
     "props": {
-      "id": "closet"
+      "id": "closet",
+      "size":"25px",
+      "viewBox":"0 0 20 20"
     }
   },
   "rich-text#menu-closet": {
@@ -278,7 +308,9 @@
   },
   "icon#menu-beach": {
     "props": {
-      "id": "beach"
+      "id": "beach",
+      "size":"25px",
+      "viewBox":"0 0 20 20"
     }
   },
   "rich-text#menu-beach": {
@@ -302,7 +334,9 @@
   },
   "icon#menu-mountaineering": {
     "props": {
-      "id": "mountaineering"
+      "id": "mountaineering",
+      "size":"25px",
+      "viewBox":"0 0 20 20"
     }
   },
   "rich-text#menu-mountaineering": {
@@ -326,7 +360,9 @@
   },
   "icon#menu-delivery": {
     "props": {
-      "id": "delivery"
+      "id": "delivery",
+      "size":"25px",
+      "viewBox":"0 0 20 20"
     }
   },
   "rich-text#menu-delivery": {
@@ -350,7 +386,9 @@
   },
   "icon#menu-beer": {
     "props": {
-      "id": "beer"
+      "id": "beer",
+      "size":"25px",
+      "viewBox":"0 0 20 20"
     }
   },
   "rich-text#menu-beer": {
