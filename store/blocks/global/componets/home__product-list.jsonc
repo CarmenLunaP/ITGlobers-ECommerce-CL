@@ -17,18 +17,62 @@
       "itemsPerPage": {
         "desktop": 5,
         "tablet": 3,
-        "phone": 1
+        "phone": 2
       }
     }
   },
   "product-summary.shelf#global__main-summary": {
     "children": [
       "product-summary-image",
-      "product-summary-name",
+      "product-summary-description",
+      // "product-summary-name",
       "product-list-price",
       "product-selling-price",
-      "product-summary-buy-button"
+       "vtex.product-highlights@2.x:product-highlights",
+      // "product-summary-buy-button"
+       "add-to-cart-button"
     ],
-    "props": {}
-  }
+    "props": {
+    }
+  },
+  "vtex.product-highlights@2.x:product-highlights": {
+    "children": [ 
+      "product-highlight-text"
+      // "icon-star",
+      ],
+      "props": {
+      
+      }
+  },
+  "product-highlight-text": {
+    "props": {
+      "message": "Envio gratis",
+      "blockClass": "envio-gratis"
+    }
+    
+  },
+  "add-to-cart-button": {
+    "title": "Buy button",
+    "props":{
+        "text": "Comprar",
+        "blockClass": "shelf-button--text"
+    }
 }
+
+
+}
+
+  // "product-summary-buy-button":{
+  //   "title": "Buy button",
+  //   "props":{
+  //       "text": "Comprar",
+
+  //       "blockClass": "shelf-button--text"
+  //   }
+
+
+  
+
+
+
+

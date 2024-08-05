@@ -53,3 +53,20 @@
   
 }
 
+/* .caretIcon{
+    width: 135.15px;
+height: 106.3px;
+gap: 0px;
+opacity: 0px;
+
+} */
+
+.caretIcon{
+    color:transparent
+}
+
+.containerNormal  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
