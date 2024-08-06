@@ -1,0 +1,53 @@
+{
+    "sticky-layout#mobile": {
+        "children": ["flex-layout.row#mobile", "flex-layout.row#menu-bar"]
+     },
+   
+     "flex-layout.row#mobile": {
+       "children": [
+         "drawer",
+         "logo",
+         "flex-layout.col#spacer",
+         "overlay-trigger#header__overlay--mobile",
+         "minicart.v2",
+         "login"
+       ],
+       "props": {
+         "blockClass": "main-header-mobile",
+         "preventHorizontalStretch": true,
+         "preserveLayoutOnMobile": true,
+         "fullWidth": true
+       }
+     },
+     "drawer": {
+       "children": []
+     },
+   
+     //La lupa
+     "overlay-trigger#header__overlay--mobile": {
+       "children": [
+         "icon#header__search--mobile",
+         "overlay-layout#header__overlayout"
+       ],
+       "props": {
+         "blockClass": "header__overlay--mobile"
+       }
+     },
+     "icon#header__search--mobile": {
+       "props": {
+         "id": "hpa-search",
+         "size": 23,
+         "activeClassName": "vtex-store-components-3-x-searchIcon"
+       }
+     },
+     "overlay-layout#header__overlayout": {
+       "children": ["search-bar#header__search--mobile"],
+       "props": {
+         "placement": "left",
+         "blockClass": "header__overlayout",
+         "transitionComponent": "fadeInLeft"
+       }
+     },
+     "search-bar#header__search--mobile": {}
+     
+}
