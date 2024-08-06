@@ -1,20 +1,22 @@
 .container {
-    margin-top: 5%;
+    margin-top: 10px;
+    margin-right: 10px;
     background: #1d2734;
     height: 40px;
-    /* width: 60px; */
-    top: 24px;
-    gap: 10px;
+    width: 80px;
+    /* top: 24px;
+    gap: 10px; */
     border-radius:40px;
     border: 1px;
-    opacity: 0px;
-    
+    opacity: 0px;  
+    justify-content: center  
   }
   
   .label {
     color: white;
     display: block;
     text-transform: lowercase;
+    margin-right: 8px;
   }
   
   .label::first-letter {

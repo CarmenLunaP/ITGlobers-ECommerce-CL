@@ -8,14 +8,14 @@
 } */
 
 .logoImage {
-    margin-top: 15px;
-    padding: 0%;
+  margin-top: 15px;
+  padding: 0%;
 }
 
 .searchIcon {
-    margin-top: 15px;
-    width: 18px;
-    height: 18px;
+  margin-top: 15px;
+  width: 18px;
+  height: 18px;
 }
 
 /* -------------------------- */
@@ -24,7 +24,7 @@
 
 /* //solo imagen */
 .imageElement {
-    width: 100%;
+  width: 100%;
 }
 /* cuando es infocard */
 
@@ -36,60 +36,70 @@
 /* ------------------------------------ */
 /* Infocard del slider */
 
-
-.infoCardContainer{
-    display: flex;
-    text-align: left;
-    margin-left: 0px;
+.infoCardContainer {
+  display: flex;
+  text-align: left;
+  margin-left: 0px;
 }
 
-.infoCardImage{
-    width: 36.14px;
+.infoCardImage {
+  width: 36.14px;
 }
-
 
 .infoCardContainer {
-    align-items: flex-start;
+  align-items: flex-start;
 }
 
-.infoCardImageContainer{
-    display: flex;
-    flex-direction: row-reverse; 
-    align-items: flex-start;
-    margin-top: 20px;
+.infoCardImageContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  margin-top: 20px;
 }
 
 .infoCardHeadline {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .infoCardBodyText {
-    font-size: 12px;
-    margin-top: 10%;
+  font-size: 12px;
+  margin-top: 10%;
 }
 
 .info-card-MobilHerroHome .vtex-button {
-    background-color: black !important;
-    width: 100px !important;
-    height: 32px !important;
-    border-radius: 40px !important;
-    border: 0.65px solid transparent !important;
-    padding: 6.45px !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-  }
-  
-  .info-card-MobilHerroHome .vtex-button:hover {
-    background-color: black !important;
-  }
-  
-  .info-card-MobilHerroHome .vtex-button .vtex-button__label {
-    color: white !important;
-  }
-  
-  .info-card-MobilHerroHome .vtex-button .vtex-button__icon {
-    display: inline-block !important;
-    margin-left: 6.45px !important;
-  }
-  
+  background-color: black !important;
+  width: 100px !important;
+  height: 32px !important;
+  border-radius: 40px !important;
+  border: 0.65px solid transparent !important;
+  padding: 6.45px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.info-card-MobilHerroHome .vtex-button:hover {
+  background-color: black !important;
+}
+
+.info-card-MobilHerroHome .vtex-button .vtex-button__label {
+  color: white !important;
+}
+
+.info-card-MobilHerroHome .vtex-button .vtex-button__icon {
+  display: inline-block !important;
+  margin-left: 6.45px !important;
+}
+
+/* product sumari list descuento */
+
+:global(.vtex-discountInsideContainer) {
+  background-color: black !important;
+  width: Hug (70.22px) px;
+  height: Hug (25.11px) px;
+  padding: 4.56px 9.11px 4.56px 9.11px;
+  gap: 7.59px;
+  border-radius: 3.04px 0px 0px 0px;
+  border: 0.76px 0px 0px 0px;
+  opacity: 0px;
+}

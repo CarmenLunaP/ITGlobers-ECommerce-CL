@@ -1,0 +1,40 @@
+.container {
+  width: Fixed (160.96px) px;
+  height: Hug (291.63px) px;
+  gap: 9.11px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.description {
+  text-align: left;
+}
+
+.element :global(.vtex-button) {
+  background-color: transparent;
+}
+
+.element :global(.vtex-button__label) {
+  /* content: url("/arquivos/cart.svg"); */
+  color: black;
+  height: auto;
+  width: auto;
+  margin-right: 8px;
+  padding: 5px;
+
+}
+
+.element:global(.vtex-buttonText) {
+  color: black;
+  width: auto;
+  padding: 0%;
+  margin: 0%;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.envio-gratis{
+    color: red;
+    font-size: 30px;
+}
+

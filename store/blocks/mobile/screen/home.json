@@ -1,0 +1,12 @@
+{
+    "responsive-layout.mobile": {
+      "children": [
+        "image#Banner",
+        "rich-text",
+         "slider-layout#text-test",
+         "rich-text",
+         "flex-layout.row#Product-sumary"
+
+      ]
+    }
+  }

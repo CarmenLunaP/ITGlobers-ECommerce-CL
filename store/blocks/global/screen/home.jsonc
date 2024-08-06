@@ -1,13 +1,22 @@
+// {
+//   "store.home": { 
+//     "blocks": [
+  
+//       "image#BtnBuyNow",
+//       "rich-text",
+//       "slider-layout#text-test",
+//       "flex-layout.row#Product-sumary"
+//      ]
+//   }
+// }
+
+
 {
-  "store.home": { 
+  "store.home": {
     "blocks": [
-      "image#BtnBuyNow",
-      //"info-card#homeMobileHero",
-      "rich-text",
-      "slider-layout#text-test",
-      //"list-context.product-list",
-      //"list-context.product-list#prueba"
-      "flex-layout.row#Product-sumary"
+      "responsive-layout.mobile",
+      "responsive-layout.desktop"
+      // "responsive-layout.tablet"      
     ]
   }
 }
