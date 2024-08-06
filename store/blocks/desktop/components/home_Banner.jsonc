@@ -1,0 +1,29 @@
+{"image#Banner-Desktop": {
+    "props": {
+      "src": "assets/img/HeroDesktop.png"
+    
+   
+    }
+  }
+}
+
+
+//Esto era para hacerla como una infocard
+// {
+// "info-card#homeMobileHero": {
+//   "props": {
+//     "id": "info-card-MobileHero",
+//     "isFullModeStyle": true,
+//     "textPosition": "left",
+//     "imageUrl": "assets/img/imagen4.jpg",
+//     "headline": "iWATCH",
+//     "subhead":"ULTRA 2",
+//     "subhead1":"An amazing product.",
+    
+//     "callToActionText": "-->",
+//     "callToActionUrl": "/sale/d",
+//     "blockClass": "info-card-MobilHerroHome",
+//     "textAlignment": "center"
+//   }
+// }
+// }

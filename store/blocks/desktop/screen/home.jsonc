@@ -1,0 +1,12 @@
+{
+    "responsive-layout.desktop": {
+      "children": [
+        "image#Banner-Desktop",
+        "rich-text",
+         "slider-layout#text-test",
+         "rich-text",
+         "flex-layout.row#Product-sumary"
+
+      ]
+    }
+  }

@@ -3,7 +3,7 @@
     "title": " Slider image home ",
     "props": {
       "itemsPerPage": {
-        "desktop": 1,
+        "desktop": 4,
         "tablet": 1,
         "phone": 1.5
       },
@@ -20,7 +20,6 @@
       "image#imgSliderMobile",
       "image#imgSliderMobile",
       "image#imgSliderMobile"
-
       // "info-card",
       // "info-card",
       // "info-card"
@@ -32,65 +31,18 @@
     "props": {
       "src": "assets/img/InfoCardSliderMobile.jpg"
     }
-  },
+  }
 
-  // "rich-text#1": {
-  //   "title": "text one",
-  //   "props": {
-  //     "text": "Heading"
-  //   }
-  // },
-  // "rich-text#2": {
-  //   "title": "text two",
-  //   "props": {
-  //     "text": "Builder platform is made by, buildership platform is made by..."
-  //   }
-  // },
-
-  "image#example_1": {
-    "title": " image one ",
-    "props": {
-      "src": "assets/img/Cardelement-Mediaitem.png"
-    }
-  },
-
-  // "image#example_2": {
+  // "image#example_1": {
   //   "title": " image one ",
   //   "props": {
-  //     "src": "assets/img/ecommerceaward.png"
+  //     "src": "assets/img/Cardelement-Mediaitem.png"
   //   }
   // },
 
-  "flex-layout.row#text__one--siler-home": {
-    "title": "slider row text one",
-    "children": ["image#example_1", "info-card"]
-  }
-  // "flex-layout.col#text__one--siler-home": {
-  //   "title": "slider col text one",
-  //   "children": ["image#example_1"],
-  //   "props": {
-  //     "width": "20%"
-  //   }
-  // },
-  // "flex-layout.col#text__two--siler-home": {
-  //   "title": "slider col text two",
-  //   "children": ["rich-text#1"],
-  //   "props": {
-  //     "width": "25%"
-  //   }
-  // },
-  // "flex-layout.col#text__three--siler-home": {
-  //   "title": "slider col text three",
-  //   "children": ["rich-text#2"],
-  //   "props": {
-  //     "width": "25%"
-  //   }
-  // },
-  // "flex-layout.col#text__four--siler-home": {
-  //   "title": "slider col text four",
-  //   "children": ["image#example_2"],
-  //   "props": {
-  //     "width": "25%"
-  //   }
+  // "flex-layout.row#text__one--siler-home": {
+  //   "title": "slider row text one",
+  //   "children": ["image#example_1", "info-card"]
   // }
+ 
 }
