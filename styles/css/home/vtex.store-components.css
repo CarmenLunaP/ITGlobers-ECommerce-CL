@@ -110,8 +110,8 @@
   }
 
   /* color fondo de la lupa */
-  :global(.vtex-input__suffix){
-    background-color: #F5F4F6;;
+  :global(.vtex-input__suffix) {
+    background-color: #f5f4f6;
   }
   .searchBarIcon {
     color: #1d2734;
@@ -129,6 +129,12 @@
   :global(.vtex-input-prefix__group) {
     border-radius: 40px !important;
     border: transparent;
-    
   }
+
+  /* .imageElement {
+    width: Fixed (324px) px;
+    height: Hug (336.46px) px;
+    opacity: 0px;
+
+  } */
 }

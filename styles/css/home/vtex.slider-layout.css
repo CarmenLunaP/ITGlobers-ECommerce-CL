@@ -45,13 +45,6 @@
   
 }
 
-/* .caretIcon{
-    width: 135.15px;
-height: 106.3px;
-gap: 0px;
-opacity: 0px;
-
-} */
 
 .caretIcon{
     color:transparent
@@ -64,17 +57,68 @@ opacity: 0px;
 }
 
 
+/* ------------------------media quiery------------------ */
+
 @media (min-width: 1024px) {
     .sliderTrackContainer {
         margin-bottom: 25px;
         margin-left: 10px;
+        margin-right: 10px;
         border-radius: 8px;
-        padding: 10px 50px 40px 50px;
+        padding: 20px 50px 40px 50px;
     }
+    
+.caretIcon{
+    color:black
+}
 
-    .caretIcon{
-        color:black
-    }
+.paginationDot {
+    width: 44px !important;
+    height: 40px !important;
+    border-radius: 0;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2px;
+}
 
- 
-    }
+.paginationDot--isActive::before {
+    content: "";
+    position: absolute;
+    right: -8px;
+    width: 16px;
+    height: 16px;
+    background-color: #1d2734;
+    border-radius: 50%;
+}
+.paginationDot::after {
+    width: 44px;
+    height: 2px;
+    content: "";
+    font-size: 0;
+    background-color: #1d2734;
+    position: absolute;
+}
+
+.sliderTrackContainer {
+    margin-bottom: 25px;
+    margin-left: 10px;
+    /*padding-left: 10px; */
+    /* width: 242px;
+    height: 240.11px; */
+    border-radius: 8px;
+}
+
+.paginationDotsContainer {
+    /* margin-bottom: 15px; */
+    padding-bottom: 10px;
+  
+}
+    
+} 
+
+
+
+
