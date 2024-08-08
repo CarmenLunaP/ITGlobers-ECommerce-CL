@@ -1,32 +1,130 @@
 {
-"sticky-layout#desktop": {
-        "props": {
-          "blockClass": "sticky-header"
-          // "sticky": true
-        },
-        "children": [
-          "flex-layout.row#desktop", 
-         "flex-layout.row#menu-bar"
-      ]
-      },
-    
-        //childres 1
-      "flex-layout.row#desktop": {
-        "props": {
-          "horizontalAlign": "center",
-          "verticalAlign": "center",
-          "preventHorizontalStretch": true,
-          "preventVerticalStretch": true,
-          "fullWidth": true
-        },
-        "children": [
-          "flex-layout.col#logo-desktop",
-          "flex-layout.col#spacer",
-          "search-bar",
-          "locale-switcher",
-          "login",
-          "minicart.v2"
-        ]
-      }
+  "sticky-layout#desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+      // "sticky": true
+    },
+    "children": ["flex-layout.row#desktop", "flex-layout.row#menu-bar"]
+  },
 
+  //childres 1
+  "flex-layout.row#desktop": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "drawer",
+      "flex-layout.col#logo-desktop",
+      "search-bar",
+      "flex-layout.col#spacer",
+      "menu-item#trendsITG",
+      "menu-item#collection",
+      "menu-item#deals",
+      "menu-item#cyber-mondays",
+      "menu-item#never-say-never",
+      // "locale-switcher",
+      "minicart.v2",
+      "login"
+    ]
+  },
+
+  "search-bar": {
+    "props": {
+      "placeholder": "Search products....",
+      "blockClass": "icon-header-section-one-information",
+      "class": "search-input"
+    }
+  },
+
+  "menu-item#trendsITG": {
+    "props": {
+      "id": "trends",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/trends-it-globers",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Tendencias de ITGlobers"
+      },
+      "style": {
+        "textDecoration": "underline" /* Subraya el texto */,
+        "textDecorationColor": "#1D2734" /* Color del subrayado */
+      }
+    }
+  },
+
+  "menu-item#collection": {
+    "props": {
+      "id": "colections",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/collection-month",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Colección del mes"
+      }
+    }
+  },
+
+  "menu-item#deals": {
+    "props": {
+      "id": "offerts",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/offer-month",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Ofertas del mes"
+      }
+    }
+  },
+
+  "menu-item#cyber-mondays": {
+    "props": {
+      "id": "ciber-day",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/cyber-day",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Cyber mondays"
+      }
+    }
+  },
+
+  "menu-item#never-say-never": {
+    "props": {
+      "id": "never-say-never",
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "menu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/promotions",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Never say never"
+      }
+    }
+  },
+
+  "drawer": {
+    "children": []
+  }
 }

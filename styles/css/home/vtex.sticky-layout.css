@@ -2,3 +2,15 @@
     background-color: white;
 }
 
+
+@media (min-width: 1024px) {
+
+ .container {
+    padding: 48px
+
+    }
+
+
+  
+}
+

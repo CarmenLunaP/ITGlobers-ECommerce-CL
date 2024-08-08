@@ -1,26 +1,24 @@
 /* Menu */
 
-/* .openIconContainer{
-    display: flex;
-    align-items: end;
-    padding: 0%;
-    margin-left: 10px;
-} */
+.logoContainer {
+  padding-left: 0%;
+}
 
 .logoImage {
-  margin-top: 15px;
+  margin-top: 12px;
+
   padding: 0%;
 }
 
 .searchIcon {
-  margin-top: 15px;
+  margin-top: 14px;
   width: 18px;
   height: 18px;
 }
 
 /* -------------------------- */
 
-/* Boton de comprar */
+/* Banner*/
 
 /* //solo imagen */
 .imageElement {
@@ -103,3 +101,34 @@
   border: 0.76px 0px 0px 0px;
   opacity: 0px;
 }
+
+@media (min-width: 1024px) {
+  .logoImage {
+    margin-top: 0%;
+
+    padding: 0%;
+  }
+
+.searchBarIcon{
+  color:#1D2734;
+  margin-bottom: 8px;
+}
+
+.searchBarContainer{
+  background-color: aqua;
+  width: 280PX;
+ 
+}
+
+
+.vtex-store-components-3-x-searchBarContainer .vtex-input-prefix__group {
+  height: 38px;
+  background-color: green;
+  border-radius: 40px !important;
+}
+
+
+
+}
+
+
