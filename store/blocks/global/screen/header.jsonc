@@ -5,19 +5,4 @@
   "blocks": ["header-layout.desktop", "header-layout.mobile"]
 }
 
-
-// {
-//   "header": {
-//     "blocks": [
-//       "header-layout.mobile",
-//        "header-layout.desktop"
-//     ]
-//   },
-//   "header.full": {
-//     "blocks": [
-//       "header-layout.mobile",
-//        "header-layout.desktop"
-//     ]
-//   }
-// }
 }

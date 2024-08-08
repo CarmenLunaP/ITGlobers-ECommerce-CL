@@ -1,22 +1,39 @@
-  .flexRowContent {
-    display: flex;
-    justify-content: start;
-    align-items: stretch;
-    overflow-x: auto; 
-    overflow-y: hidden; 
-    width: 100%;
-    height: 100%;
-   
+.flexRowContent {
+  display: flex;
+  justify-content: start;
+  align-items: stretch;
+  overflow-x: scroll;
+  overflow-y: hidden; 
+  width: 100%;
+  height: 100%;
 }
 
 
+.flexRowContent::-webkit-scrollbar {
+  height: 4px; 
+  background: transparent; 
+}
+
+
+
 .flexColChild  {
-    width: 70px;
+    width: 78px;
     height: 70px;
-    margin-left:12px;
+    margin-left:0px;
     display:flex;
     justify-content: space-around;
     color: #000;
   
 }
 
+
+
+@media (min-width: 1024px) {
+/* .openIconContainer{
+  background-color: aqua;
+  }
+
+  .menuIcon{
+    margin-top: 15PX;
+  } */
+}

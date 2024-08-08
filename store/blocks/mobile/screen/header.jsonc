@@ -1,0 +1,11 @@
+{
+    "header-layout.mobile": {
+        "props":{
+          "sticky": true
+      },
+      "children": [
+      "sticky-layout#mobile"
+     ]
+    }
+}
+

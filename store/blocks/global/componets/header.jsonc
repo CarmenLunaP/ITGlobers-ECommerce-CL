@@ -1,36 +1,6 @@
-{
-  "header-layout.desktop": {
-    "children": ["sticky-layout#desktop"]
-  },
-  "sticky-layout#desktop": {
-    "props": {
-      "blockClass": "sticky-header"
-      // "sticky": true
-    },
-    "children": [
-      "flex-layout.row#desktop", 
-     "flex-layout.row#menu-bar"
-  ]
-  },
-
-    //childres 1
-  "flex-layout.row#desktop": {
-    "props": {
-      "horizontalAlign": "center",
-      "verticalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "fullWidth": true
-    },
-    "children": [
-      "flex-layout.col#logo-desktop",
-      "flex-layout.col#spacer",
-      "search-bar",
-      "locale-switcher",
-      "login",
-      "minicart.v2"
-    ]
-  },
+{   
+   //children 1 -global
+ 
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow"
@@ -63,16 +33,12 @@
 },
 
  
-  //childres 2
+  //childres 2 - global
   "flex-layout.row#menu-bar": {
     "title": "menu bar icons",
     "props": {
-      // "preventHorizontalStretch": true,
-      // "preventVerticalStretch": true,
-      // "fullWidth": true,
       "blockClass": "menu-bar"
-      // "topMenuIcons": true
-    },
+     },
     "children": [
       "flex-layout.col#menu-food",
       "flex-layout.col#menu-fitness",
@@ -400,73 +366,481 @@
       "font": "t-heading-6",
       "blockClass": ["menu-header"]
     }
-  },
+  }
+
+}
 
 
 
-  // ------------------Mobile-------------------------------------------
-  "header-layout.mobile": {
-    "props":{
-      "sticky": true
-  },
-    "children": [
-      "sticky-layout#mobile"
-    ]
-  },
-  "sticky-layout#mobile": {
-  //   "props":{
-  //     "sticky": true
-  // },
-    "children": ["flex-layout.row#mobile", "flex-layout.row#menu-bar"]
-  },
+// {
+//   "header-layout.desktop": {
+//     "children": ["sticky-layout#desktop"]
+//   },
+//   "sticky-layout#desktop": {
+//     "props": {
+//       "blockClass": "sticky-header"
+//       // "sticky": true
+//     },
+//     "children": [
+//       "flex-layout.row#desktop", 
+//      "flex-layout.row#menu-bar"
+//   ]
+//   },
 
-  "flex-layout.row#mobile": {
-    "children": [
-      "drawer",
-      "logo",
-      "flex-layout.col#spacer",
-      "overlay-trigger#header__overlay--mobile",
-      "minicart.v2",
-      "login"
-    ],
-    "props": {
-      "blockClass": "main-header-mobile",
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
-    }
-  },
-  "drawer": {
-    "children": []
-  },
+//     //childres 1
+//   "flex-layout.row#desktop": {
+//     "props": {
+//       "horizontalAlign": "center",
+//       "verticalAlign": "center",
+//       "preventHorizontalStretch": true,
+//       "preventVerticalStretch": true,
+//       "fullWidth": true
+//     },
+//     "children": [
+//       "flex-layout.col#logo-desktop",
+//       "flex-layout.col#spacer",
+//       "search-bar",
+//       "locale-switcher",
+//       "login",
+//       "minicart.v2"
+//     ]
+//   },
+//   "flex-layout.col#spacer": {
+//     "props": {
+//       "width": "grow"
+//     }
+//   },
+//   "flex-layout.col#logo-desktop": {
+//     "props": {
+//       "verticalAlign": "middle"
+//     },
+//     "children": ["logo"]
+//   },
+//   "logo": {
+//     "props": {
+//       "title": "Logo",
+//       "href": "/",
+//       "url": "assets/img/Icon_Black.svg",
+//       "width": "40"
+//     }
+//   },
 
-  //La lupa
-  "overlay-trigger#header__overlay--mobile": {
-    "children": [
-      "icon#header__search--mobile",
-      "overlay-layout#header__overlayout"
-    ],
-    "props": {
-      "blockClass": "header__overlay--mobile"
-    }
-  },
-  "icon#header__search--mobile": {
-    "props": {
-      "id": "hpa-search",
-      "size": 23,
-      "activeClassName": "vtex-store-components-3-x-searchIcon"
-    }
-  },
-  "overlay-layout#header__overlayout": {
-    "children": ["search-bar#header__search--mobile"],
-    "props": {
-      "placement": "left",
-      "blockClass": "header__overlayout",
-      "transitionComponent": "fadeInLeft"
-    }
-  },
-  "search-bar#header__search--mobile": {}
+//   "login": {
+//   "props": {
+//     "iconLabel": "login",
+//     "emailAndPasswordTitle": "LOG-IN",
+//     "accessCodeTitle": "Acess Code LOG-IN",
+//     "emailPlaceholder": "e-mail",
+//     "passwordPlaceholder": "password",
+//     "showPasswordVerificationIntoTooltip": true
+//   }
+// },
+
+ 
+//   //childres 2
+//   "flex-layout.row#menu-bar": {
+//     "title": "menu bar icons",
+//     "props": {
+//       // "preventHorizontalStretch": true,
+//       // "preventVerticalStretch": true,
+//       // "fullWidth": true,
+//       "blockClass": "menu-bar"
+//       // "topMenuIcons": true
+//     },
+//     "children": [
+//       "flex-layout.col#menu-food",
+//       "flex-layout.col#menu-fitness",
+//       "flex-layout.col#menu-artico",
+//       "flex-layout.col#menu-Poolday",
+//       "flex-layout.col#menu-hotel",
+//       "flex-layout.col#menu-house",
+//       "flex-layout.col#menu-natural",
+//       "flex-layout.col#menu-closet",
+//       "flex-layout.col#menu-beach",
+//       "flex-layout.col#menu-mountaineering",
+//       "flex-layout.col#menu-delivery",
+//       "flex-layout.col#menu-beer"
+//     ]
+//   },
+
+//   "flex-layout.col#menu-food": {
+//     "title": "food container",
+//     "props": {
+//       "horizontalAlign": "center",
+//       "verticalAlign": "center"
+//     },
+//     "children": ["icon#menu-food", "rich-text#menu-food"]
+//   },
+//   "icon#menu-food": {
+//     "props": {
+//       "id": "food",
+//       "size":"25px",
+//       "viewBox":"0 0 20 20"
+     
+
+//     }
+//   },
+//   "rich-text#menu-food": {
+//     "title": "text food",
+//     "props": {
+//       "text": "Food",
+//       "textAlignment": "CENTER",
+//       "textPosition": "CENTER",
+//       "font": "t-heading-6",
+//       "blockClass": ["menu-header"]
+//     }
+//   },
+//   "flex-layout.col#menu-fitness": {
+//     "title": "fitness container",
+//     "props": {
+//       "horizontalAlign": "center",
+//       "verticalAlign": "center"
+//     },
+//     "children": ["icon#menu-fitness", "rich-text#menu-fitness"]
+//   },
+//   "icon#menu-fitness": {
+//     "props": {
+//       "id": "fitness",
+//       "size":"25px",
+//       "viewBox":"0 0 20 20"
+//     }
+//   },
+//   "rich-text#menu-fitness": {
+//     "title": "text fitness",
+//     "props": {
+//       "text": "Fitness",
+//       "textAlignment": "CENTER",
+//       "textPosition": "CENTER",
+//       "font": "t-heading-6",
+//       "blockClass": ["menu-header"]
+//     }
+//   },
+
+//   "flex-layout.col#menu-artico": {
+//     "title": "artico container",
+//     "props": {
+//       "horizontalAlign": "center",
+//       "verticalAlign": "center"
+//     },
+//     "children": ["icon#menu-artico", "rich-text#menu-artico"]
+//   },
+//   "icon#menu-artico": {
+//     "props": {
+//       "id": "artico",
+//       "size":"25px",
+//       "viewBox":"0 0 20 20"
+//     }
+//   },
+//   "rich-text#menu-artico": {
+//     "title": "text artico",
+//     "props": {
+//       "text": "En el Ártico",
+//       "textAlignment": "CENTER",
+//       "textPosition": "CENTER",
+//       "font": "t-heading-6",
+//       "blockClass": ["menu-header"]
+//     }
+//   },
+
+//   "flex-layout.col#menu-Poolday": {
+//     "title": "Poolday container",
+//     "props": {
+//       "horizontalAlign": "center",
+//       "verticalAlign": "center"
+//     },
+//     "children": ["icon#menu-Poolday", "rich-text#menu-Poolday"]
+//   },
+//   "icon#menu-Poolday": {
+//     "props": {
+//       "id": "Poolday",
+//       "size":"25px",
+//       "viewBox":"0 0 20 20"
+//     }
+//   },
+//   "rich-text#menu-Poolday": {
+//     "title": "text Poolday",
+//     "props": {
+//       "text": "Poolday",
+//       "textAlignment": "CENTER",
+//       "textPosition": "CENTER",
+//       "font": "t-heading-6",
+//       "blockClass": ["menu-header"]
+//     }
+//   },
+
+//   "flex-layout.col#menu-hotel": {
+//     "title": "hotel container",
+//     "props": {
+//       "horizontalAlign": "center",
+//       "verticalAlign": "center"
+//     },
+//     "children": ["icon#menu-hotel", "rich-text#menu-hotel"]
+//   },
+//   "icon#menu-hotel": {
+//     "props": {
+//       "id": "hotel",
+//       "size":"25px",
+//       "viewBox":"0 0 20 20"
+//     }
+//   },
+//   "rich-text#menu-hotel": {
+//     "title": "text hotel",
+//     "props": {
+//       "text": "Hoteles",
+//       "textAlignment": "CENTER",
+//       "textPosition": "CENTER",
+//       "font": "t-heading-6",
+//       "blockClass": ["menu-header"]
+//     }
+//   },
+
+//   "flex-layout.col#menu-house": {
+//     "title": "houses container",
+//     "props": {
+//       "horizontalAlign": "center",
+//       "verticalAlign": "center"
+//     },
+//     "children": ["icon#menu-house", "rich-text#menu-house"]
+//   },
+//   "icon#menu-house": {
+//     "props": {
+//       "id": "house",
+//       "size":"25px",
+//       "viewBox":"0 0 20 20"
+//     }
+//   },
+//   "rich-text#menu-house": {
+//     "title": "text house",
+//     "props": {
+//       "text": "Casas",
+//       "textAlignment": "CENTER",
+//       "textPosition": "CENTER",
+//       "font": "t-heading-6",
+//       "blockClass": ["menu-header"]
+//     }
+//   },
+
+//   "flex-layout.col#menu-natural": {
+//     "title": "natural container",
+//     "props": {
+//       "horizontalAlign": "center",
+//       "verticalAlign": "center"
+//     },
+//     "children": ["icon#menu-natural", "rich-text#menu-natural"]
+//   },
+//   "icon#menu-natural": {
+//     "props": {
+//       "id": "natural",
+//       "size":"25px",
+//       "viewBox":"0 0 20 20"
+//     }
+//   },
+//   "rich-text#menu-natural": {
+//     "title": "text natural",
+//     "props": {
+//       "text": "Naturales",
+//       "textAlignment": "CENTER",
+//       "textPosition": "CENTER",
+//       "font": "t-heading-6",
+//       "blockClass": ["menu-header"]
+//     }
+//   },
+
+//   "flex-layout.col#menu-closet": {
+//     "title": "closet container",
+//     "props": {
+//       "horizontalAlign": "center",
+//       "verticalAlign": "center"
+//     },
+//     "children": ["icon#menu-closet", "rich-text#menu-closet"]
+//   },
+//   "icon#menu-closet": {
+//     "props": {
+//       "id": "closet",
+//       "size":"25px",
+//       "viewBox":"0 0 20 20"
+//     }
+//   },
+//   "rich-text#menu-closet": {
+//     "title": "text closet",
+//     "props": {
+//       "text": "Closet",
+//       "textAlignment": "CENTER",
+//       "textPosition": "CENTER",
+//       "font": "t-heading-6",
+//       "blockClass": ["menu-header"]
+//     }
+//   },
+
+//   "flex-layout.col#menu-beach": {
+//     "title": "beach container",
+//     "props": {
+//       "horizontalAlign": "center",
+//       "verticalAlign": "center"
+//     },
+//     "children": ["icon#menu-beach", "rich-text#menu-beach"]
+//   },
+//   "icon#menu-beach": {
+//     "props": {
+//       "id": "beach",
+//       "size":"25px",
+//       "viewBox":"0 0 20 20"
+//     }
+//   },
+//   "rich-text#menu-beach": {
+//     "title": "text beach",
+//     "props": {
+//       "text": "Playas",
+//       "textAlignment": "CENTER",
+//       "textPosition": "CENTER",
+//       "font": "t-heading-6",
+//       "blockClass": ["menu-header"]
+//     }
+//   },
+
+//   "flex-layout.col#menu-mountaineering": {
+//     "title": "mountaineering container",
+//     "props": {
+//       "horizontalAlign": "center",
+//       "verticalAlign": "center"
+//     },
+//     "children": ["icon#menu-mountaineering", "rich-text#menu-mountaineering"]
+//   },
+//   "icon#menu-mountaineering": {
+//     "props": {
+//       "id": "mountaineering",
+//       "size":"25px",
+//       "viewBox":"0 0 20 20"
+//     }
+//   },
+//   "rich-text#menu-mountaineering": {
+//     "title": "text mountaineering",
+//     "props": {
+//       "text": "Montañismo",
+//       "textAlignment": "CENTER",
+//       "textPosition": "CENTER",
+//       "font": "t-heading-6",
+//       "blockClass": ["menu-header"]
+//     }
+//   },
+
+//   "flex-layout.col#menu-delivery": {
+//     "title": "delivery container",
+//     "props": {
+//       "horizontalAlign": "center",
+//       "verticalAlign": "center"
+//     },
+//     "children": ["icon#menu-delivery", "rich-text#menu-delivery"]
+//   },
+//   "icon#menu-delivery": {
+//     "props": {
+//       "id": "delivery",
+//       "size":"25px",
+//       "viewBox":"0 0 20 20"
+//     }
+//   },
+//   "rich-text#menu-delivery": {
+//     "title": "text delivery",
+//     "props": {
+//       "text": "Delivery",
+//       "textAlignment": "CENTER",
+//       "textPosition": "CENTER",
+//       "font": "t-heading-6",
+//       "blockClass": ["menu-header"]
+//     }
+//   },
+
+//   "flex-layout.col#menu-beer": {
+//     "title": "beer container",
+//     "props": {
+//       "horizontalAlign": "center",
+//       "verticalAlign": "center"
+//     },
+//     "children": ["icon#menu-beer", "rich-text#menu-beer"]
+//   },
+//   "icon#menu-beer": {
+//     "props": {
+//       "id": "beer",
+//       "size":"25px",
+//       "viewBox":"0 0 20 20"
+//     }
+//   },
+//   "rich-text#menu-beer": {
+//     "title": "text beer",
+//     "props": {
+//       "text": "Cervezas",
+//       "textAlignment": "CENTER",
+//       "textPosition": "CENTER",
+//       "font": "t-heading-6",
+//       "blockClass": ["menu-header"]
+//     }
+//   },
+
+
+
+//   // ------------------Mobile-------------------------------------------
+//   "header-layout.mobile": {
+//     "props":{
+//       "sticky": true
+//   },
+//     "children": [
+//       "sticky-layout#mobile"
+//     ]
+//   },
+//   "sticky-layout#mobile": {
+//   //   "props":{
+//   //     "sticky": true
+//   // },
+//     "children": ["flex-layout.row#mobile", "flex-layout.row#menu-bar"]
+//   },
+
+//   "flex-layout.row#mobile": {
+//     "children": [
+//       "drawer",
+//       "logo",
+//       "flex-layout.col#spacer",
+//       "overlay-trigger#header__overlay--mobile",
+//       "minicart.v2",
+//       "login"
+//     ],
+//     "props": {
+//       "blockClass": "main-header-mobile",
+//       "preventHorizontalStretch": true,
+//       "preserveLayoutOnMobile": true,
+//       "fullWidth": true
+//     }
+//   },
+//   "drawer": {
+//     "children": []
+//   },
+
+//   //La lupa
+//   "overlay-trigger#header__overlay--mobile": {
+//     "children": [
+//       "icon#header__search--mobile",
+//       "overlay-layout#header__overlayout"
+//     ],
+//     "props": {
+//       "blockClass": "header__overlay--mobile"
+//     }
+//   },
+//   "icon#header__search--mobile": {
+//     "props": {
+//       "id": "hpa-search",
+//       "size": 23,
+//       "activeClassName": "vtex-store-components-3-x-searchIcon"
+//     }
+//   },
+//   "overlay-layout#header__overlayout": {
+//     "children": ["search-bar#header__search--mobile"],
+//     "props": {
+//       "placement": "left",
+//       "blockClass": "header__overlayout",
+//       "transitionComponent": "fadeInLeft"
+//     }
+//   },
+//   "search-bar#header__search--mobile": {}
   
 
 
-}
+// }

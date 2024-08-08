@@ -1,0 +1,12 @@
+/* color del imput */
+
+.input{
+    background-color: #F5F4F6;
+    font-family: Lexend;
+    color:black !important;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15px;
+    text-align: left;
+ 
+   }
