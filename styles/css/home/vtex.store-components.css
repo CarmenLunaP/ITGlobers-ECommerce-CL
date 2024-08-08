@@ -109,26 +109,26 @@
     padding: 0%;
   }
 
-.searchBarIcon{
-  color:#1D2734;
-  margin-bottom: 8px;
+  /* color fondo de la lupa */
+  :global(.vtex-input__suffix){
+    background-color: #F5F4F6;;
+  }
+  .searchBarIcon {
+    color: #1d2734;
+    margin-bottom: 12px;
+    padding-right: 0%;
+    /* background-color: aqua; */
+  }
+
+  .searchBarContainer {
+    /* background-color: aqua; */
+    width: 280px;
+  }
+
+  /* border radio del seach bar */
+  :global(.vtex-input-prefix__group) {
+    border-radius: 40px !important;
+    border: transparent;
+    
+  }
 }
-
-.searchBarContainer{
-  background-color: aqua;
-  width: 280PX;
- 
-}
-
-
-.vtex-store-components-3-x-searchBarContainer .vtex-input-prefix__group {
-  height: 38px;
-  background-color: green;
-  border-radius: 40px !important;
-}
-
-
-
-}
-
-

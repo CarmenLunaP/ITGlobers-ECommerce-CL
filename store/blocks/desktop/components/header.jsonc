@@ -32,13 +32,13 @@
     ]
   },
 
-  "search-bar": {
-    "props": {
-      "placeholder": "Search products....",
-      "blockClass": "icon-header-section-one-information",
-      "class": "search-input"
-    }
-  },
+"search-bar": {
+  "props": {
+    "placeholder": "Search products....",
+    "blockClass": "search-bar-home-desktop"
+  }
+},
+  
 
   "menu-item#trendsITG": {
     "props": {
