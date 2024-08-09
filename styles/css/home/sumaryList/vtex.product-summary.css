@@ -18,18 +18,18 @@
 }
 
 /* ----caro--- */
-.buttonDataContainer--custom-buy-button::before {
+/* .buttonDataContainer--custom-buy-button::before {
   content      : url("/arquivos/cart.svg");
   width        : 16.8px;
   height       : 17.5px;
   padding-right: 10px;
-}
+} */
 
 .element :global(.vtex-button__label) {
   /* content: url("/arquivos/cart.svg"); */
   color: black;
-  height: auto;
-  width: auto;
+  height: 16px;
+  width: 17px;
   margin-right: 8px;
   padding: 5px;
 

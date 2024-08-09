@@ -4,7 +4,7 @@
 
 .sliderArrows{
     color: transparent !important;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 
@@ -14,7 +14,7 @@
 
      .caretIcon{
         color: black;
-        background-color: aqua;
+        /* background-color: aqua; */
    
         
     } 

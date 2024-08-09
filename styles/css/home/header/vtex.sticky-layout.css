@@ -6,7 +6,8 @@
 @media (min-width: 1024px) {
 
  .container {
-    padding: 48px
+    padding: 48px;
+    width:auto
 
     }
 
