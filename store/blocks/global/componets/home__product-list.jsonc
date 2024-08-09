@@ -1,78 +1,109 @@
 {
-"flex-layout.row#Product-sumary": {
-    "children": [
-      "list-context.product-list#global__main-shelf"
-    ]
-  },
-  "list-context.product-list#global__main-shelf": {
-    "blocks": [
-      "product-summary.shelf#global__main-summary"
-    ],
-    "children": [
-      "slider-layout#global__slider-shelf"
-    ]
-  },
-  "slider-layout#global__slider-shelf": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 5,
-        "tablet": 3,
-        "phone": 2
+  "flex-layout.row#Product-sumary": {
+      "children": [
+        "list-context.product-list#global__main-shelf"
+      ]
+    },
+    "list-context.product-list#global__main-shelf": {
+      "blocks": [
+        "product-summary.shelf#global__main-summary"
+      ],
+      "children": [
+        "slider-layout#global__slider-shelf"
+      ]
+    },
+    "slider-layout#global__slider-shelf": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 5,
+          "tablet": 3,
+          "phone": 2
+        }
       }
-    }
-  },
-  "product-summary.shelf#global__main-summary": {
-    "children": [
-      "product-summary-image",
-      "product-summary-description",
-      // "product-summary-name",
-      "product-list-price",
-      "product-selling-price",
-       "vtex.product-highlights@2.x:product-highlights",
-      // "product-summary-buy-button"
-       "add-to-cart-button"
-    ],
-    "props": {
-    }
-  },
-  "vtex.product-highlights@2.x:product-highlights": {
-    "children": [ 
-      "product-highlight-text"
-      // "icon-star",
+    },
+    "product-summary.shelf#global__main-summary": {
+      "children": [
+        "flex-layout.row#container-price_salving-add_favorite",
+        "product-summary-image",
+        "product-summary-description",
+        // "product-summary-name",
+        "product-list-price",
+        "product-selling-price",
+         "flex-layout.row#product-highlights",
+        // "product-summary-buy-button"
+        "flex-layout.col#spacer",
+         "add-to-cart-button"
       ],
       "props": {
-      
       }
-  },
-  "product-highlight-text": {
-    "props": {
-      "message": "Envio gratis",
-      "blockClass": "envio-gratis"
-    }
-    
-  },
-  "add-to-cart-button": {
-    "title": "Buy button",
-    "props":{
-        "text": "Comprar",
-        "blockClass": "shelf-button--text"
-    }
-}
-
-
-}
-
-  // "product-summary-buy-button":{
-  //   "title": "Buy button",
-  //   "props":{
-  //       "text": "Comprar",
-
-  //       "blockClass": "shelf-button--text"
-  //   }
-
-
+    },
+    "flex-layout.row#container-price_salving-add_favorite": {
+      "children": [
+        "product-price-savings",
+        "add-to-list-btn"
+      ],
+      "props": {
+        "blockClass": "container-price_salving-add_favorite"
+      }
+    },
+    "add-to-list-btn": {
+      "props": {
+        "blockClass": "favorite"
+      }
+    },
+    "product-price-savings": {
+      "props": {
+        "message": "{savingsPercentage} OFF"
+      }
+    },
   
 
 
-
-
+  "flex-layout.row#product-highlights": {
+    "children": [
+      "vtex.product-highlights@2.x:product-highlights"
+    ],
+    "props": {
+      "blockClass": "container-product-highlights"
+    }
+  },
+    "vtex.product-highlights@2.x:product-highlights": {
+      "children": [ 
+        "product-highlight-text",
+        "icon#sumary-list-flash"
+        ],
+        "props": {
+        
+        }
+    },
+    "product-highlight-text": {
+      "props": {
+        "message": "Envio gratis",
+        "blockClass": "highlight-text-envio-gratis"
+      }
+    },
+      "icon#sumary-list-flash": {
+        "props": {
+          "id": "flash",
+          "size":"25px",
+          "viewBox":"0 0 20 20"
+        }
+    },
+    "add-to-cart-button": {
+      "title": "Buy button",
+      "props":{
+          "text": "Comprar",
+          "blockClass": "shelf-button--text"
+      }
+  }
+  
+    }
+  
+    // "product-summary-buy-button":{
+    //   "title": "Buy button",
+    //   "props":{
+    //       "text": "Comprar",
+  
+    //       "blockClass": "shelf-button--text"
+    //   }
+  
