@@ -4,17 +4,16 @@
     "props": {
       "itemsPerPage": {
         "desktop": 3,
-        "tablet": 1,
-        "phone": 1.5
+        "tablet": 2,
+        "phone": 1
       },
-      "infinite": true,
+      "centerMode": "to-the-left",
+      "centerModeSlidesGap": "15px",
+       "infinite": true,
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel"
     },
     "children": [
-      "image#imgSliderMobile",
-      "image#imgSliderMobile",
-      "image#imgSliderMobile",
       "image#imgSliderMobile",
       "image#imgSliderMobile",
       "image#imgSliderMobile",

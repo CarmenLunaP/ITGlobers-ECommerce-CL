@@ -1,0 +1,29 @@
+.sliderLeftArrow .sliderRightArrow {
+    color: transparent !important;
+}
+
+.sliderArrows{
+    color: transparent !important;
+    /* background-color: aqua; */
+}
+
+
+
+
+@media (min-width: 1024px) {
+
+     .caretIcon{
+        color: black;
+        /* background-color: aqua; */
+   
+        
+    } 
+
+.sliderLayoutContainer{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+}
+
+

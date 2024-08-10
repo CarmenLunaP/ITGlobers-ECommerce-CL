@@ -1,24 +1,57 @@
+/* --contenedor general del sumary list--- */
+
 .container {
   width: Fixed (160.96px) px;
   height: Hug (291.63px) px;
   gap: 9.11px;
-  vertical-align: middle;
+  /* vertical-align: middle; */
   margin-right: 10px;
+  padding-bottom: 20px;
 }
+
+/* --imagenes del sumarylist-- */
+
+.imageContainer{
+  align-items: center;
+  height: 180px;
+}
+
+
+.imageNormal{
+  width: 100%;
+  height: 160px;
+  align-items: end;
+}
+
+/* --descripcion del producto--- */
 
 .description {
   text-align: left;
+  font-size: 12px;
 }
 
-.element :global(.vtex-button) {
+
+/* --boton de comprar-- */
+
+
+/* .element :global(.vtex-button) {
   background-color: transparent;
-}
+  margin-top: 3px;
+} */
 
-.element :global(.vtex-button__label) {
-  /* content: url("/arquivos/cart.svg"); */
+/* ----caro--- */
+/* .buttonDataContainer--custom-buy-button::before {
+  content      : url("/arquivos/cart.svg");
+  width        : 16.8px;
+  height       : 17.5px;
+  padding-right: 10px;
+} */
+
+/* .element :global(.vtex-button__label) {
+  /* content: url("/arquivos/cart.svg"); 
   color: black;
-  height: auto;
-  width: auto;
+  height: 16px;
+  width: 17px;
   margin-right: 8px;
   padding: 5px;
 
@@ -31,10 +64,4 @@
   margin: 0%;
   font-size: 16px;
   vertical-align: middle;
-}
-
-.envio-gratis{
-    color: red;
-    font-size: 30px;
-}
-
+} */
