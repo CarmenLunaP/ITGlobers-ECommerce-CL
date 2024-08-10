@@ -1,3 +1,5 @@
+/* --contenedor general del sumary list--- */
+
 .container {
   width: Fixed (160.96px) px;
   height: Hug (291.63px) px;
@@ -7,15 +9,35 @@
   padding-bottom: 20px;
 }
 
+/* --imagenes del sumarylist-- */
+
+.imageContainer{
+  align-items: center;
+  height: 180px;
+}
+
+
+.imageNormal{
+  width: 100%;
+  height: 160px;
+  align-items: end;
+}
+
+/* --descripcion del producto--- */
+
 .description {
   text-align: left;
   font-size: 12px;
 }
 
-.element :global(.vtex-button) {
+
+/* --boton de comprar-- */
+
+
+/* .element :global(.vtex-button) {
   background-color: transparent;
   margin-top: 3px;
-}
+} */
 
 /* ----caro--- */
 /* .buttonDataContainer--custom-buy-button::before {
@@ -25,8 +47,8 @@
   padding-right: 10px;
 } */
 
-.element :global(.vtex-button__label) {
-  /* content: url("/arquivos/cart.svg"); */
+/* .element :global(.vtex-button__label) {
+  /* content: url("/arquivos/cart.svg"); 
   color: black;
   height: 16px;
   width: 17px;
@@ -42,19 +64,4 @@
   margin: 0%;
   font-size: 16px;
   vertical-align: middle;
-}
-
-
-/* --imagenes del sumarylist-- */
-
-.imageContainer{
-  align-items: center;
-  height: 180px;
-}
-
-
-.imageNormal{
-  width: 100%;
-  height: 160px;
-  align-items: end;
-}
+} */
