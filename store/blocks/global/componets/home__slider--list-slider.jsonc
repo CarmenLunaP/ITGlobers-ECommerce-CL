@@ -1,5 +1,5 @@
 {
-  "slider-layout#text-test": {
+  "slider-layout#home-slider": {
     "title": " Slider image home ",
     "props": {
       "itemsPerPage": {
@@ -32,16 +32,5 @@
     }
   }
 
-  // "image#example_1": {
-  //   "title": " image one ",
-  //   "props": {
-  //     "src": "assets/img/Cardelement-Mediaitem.png"
-  //   }
-  // },
-
-  // "flex-layout.row#text__one--siler-home": {
-  //   "title": "slider row text one",
-  //   "children": ["image#example_1", "info-card"]
-  // }
- 
+   
 }

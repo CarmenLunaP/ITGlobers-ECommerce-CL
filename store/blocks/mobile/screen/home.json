@@ -2,9 +2,9 @@
     "responsive-layout.mobile": {
       "children": [
         "image#Banner",
-        "rich-text",
-         "slider-layout#text-test",
-         "rich-text",
+        "rich-text#home-amazing-product",
+         "slider-layout#home-slider",
+         "rich-text#home-amazing-product",
          "flex-layout.row#Product-sumary"
 
       ]

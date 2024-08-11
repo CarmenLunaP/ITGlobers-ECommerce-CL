@@ -62,18 +62,18 @@
 
 @media (min-width: 1024px) {
     .sliderTrackContainer {
-        margin-bottom: 25px;
+        /* margin-bottom: 25px;
         margin-left: 10px;
         margin-right: 10px;
         border-radius: 8px;
-        padding: 20px 50px 40px 50px;
+        padding: 20px 50px 40px 50px; */
     }
     
 .caretIcon{
     color:black
 }
 
-.paginationDot {
+/* .paginationDot {
     width: 44px !important;
     height: 40px !important;
     border-radius: 0;
@@ -108,15 +108,15 @@
     margin-left: 10px;
     /*padding-left: 10px; */
     /* width: 242px;
-    height: 240.11px; */
+    height: 240.11px; 
     border-radius: 8px;
 }
 
 .paginationDotsContainer {
-    /* margin-bottom: 15px; */
+    /* margin-bottom: 15px; 
     padding-bottom: 10px;
   
-}
+} */
     
 } 
 

@@ -1,16 +1,3 @@
-// {
-//   "store.home": { 
-//     "blocks": [
-  
-//       "image#BtnBuyNow",
-//       "rich-text",
-//       "slider-layout#text-test",
-//       "flex-layout.row#Product-sumary"
-//      ]
-//   }
-// }
-
-
 {
   "store.home": {
     "blocks": [
