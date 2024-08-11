@@ -11,13 +11,12 @@
 
 /* --imagenes del sumarylist-- */
 
-.imageContainer{
+.imageContainer {
   align-items: center;
   height: 180px;
 }
 
-
-.imageNormal{
+.imageNormal {
   width: 100%;
   height: 160px;
   align-items: end;
@@ -30,38 +29,45 @@
   font-size: 12px;
 }
 
+/*boton*/
 
-/* --boton de comprar-- */
-
-
-/* .element :global(.vtex-button) {
+.container :global(.vtex-button) {
   background-color: transparent;
-  margin-top: 3px;
-} */
-
-/* ----caro--- */
-/* .buttonDataContainer--custom-buy-button::before {
-  content      : url("/arquivos/cart.svg");
-  width        : 16.8px;
-  height       : 17.5px;
-  padding-right: 10px;
-} */
-
-/* .element :global(.vtex-button__label) {
-  /* content: url("/arquivos/cart.svg"); 
-  color: black;
-  height: 16px;
-  width: 17px;
-  margin-right: 8px;
-  padding: 5px;
-
+  width: 160px;
+  height: 36px;
+  /* width: Fixed (212px) px;
+  height: Fixed (48px) px; */
+  border-radius: 8px;
+  border: 1px solid #1d2734;
 }
 
-.element:global(.vtex-buttonText) {
+:global(.vtex-add-to-cart-button-0-x-buttonText--buy-button) {
   color: black;
-  width: auto;
-  padding: 0%;
-  margin: 0%;
-  font-size: 16px;
-  vertical-align: middle;
-} */
+  text-transform: capitalize;
+  font-family: Lexend;
+  font-size: 14px;
+  }
+
+  
+  :global(.vtex-add-to-cart-button-0-x-buttonDataContainer--buy-button) {
+    width: 160px;
+    height: 36px;
+    padding: 2px;
+  
+  }
+
+
+:global(.vtex-add-to-cart-button-0-x-buttonDataContainer--buy-button) {
+  background-image: url("/arquivos/cart.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  /*background-position: left center;  Cambia 'left' para alinear a la izquierda */
+  /* width: 30px; */
+  height: 20px;
+  display: inline-block;
+  padding-left: 15px;
+  background-position: left;
+}
+
+
+
