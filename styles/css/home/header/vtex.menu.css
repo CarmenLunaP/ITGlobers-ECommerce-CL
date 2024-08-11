@@ -2,13 +2,24 @@
 
 @media (min-width: 1024px) {
 
- .styledLinkContent{
-   font-size: 12px;
-    margin-top: 22px !important;
- }
-   
-   
-     
+  .vtex-flex-layout-0-x-flexRow{
+    width: fit-content;
+  }
+  
+  .styledLinkContainer--menu-item{
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  /* vtex-menu-2-x-styledLinkContainer vtex-menu-2-x-styledLinkContainer--menu-item mh6 */
+  
+   .styledLinkContent{
+     font-size: 12px;
+      margin-top: 22px !important;
+      margin-left: 0px;
+      margin-right: 8px;
    }
+   
+     }
+  
    
    
