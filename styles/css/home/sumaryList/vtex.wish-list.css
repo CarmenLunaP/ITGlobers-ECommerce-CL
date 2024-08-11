@@ -1,9 +1,12 @@
 
 .wishlistIcon--favorite {
     background-image: url("/arquivos/favorite.svg") !important;
-    width: 18px;
-    height: 18px;
-    margin-left:5px;
+    /* width: 18px;*/
+    height: 18px; 
+    margin-right:5px;
+      background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
     position: absolute;
     
   }
