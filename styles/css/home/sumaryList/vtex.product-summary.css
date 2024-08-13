@@ -24,10 +24,26 @@
 
 /* --descripcion del producto--- */
 
+
 .description {
   text-align: left;
   font-size: 12px;
+  line-height: 14px;
+  display: -webkit-box;  
+  -webkit-line-clamp: 3; 
+  -webkit-box-orient:vertical;
+  /*overflow:hidden;    */         
+  text-overflow: ellipsis;
+  margin-bottom: 10px;
+   
 }
+
+
+
+/* .description {
+  text-align: left;
+  font-size: 12px;
+} */
 
 /*boton*/
 
