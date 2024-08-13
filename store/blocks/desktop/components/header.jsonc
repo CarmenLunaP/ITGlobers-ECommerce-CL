@@ -7,7 +7,7 @@
     "children": ["flex-layout.row#desktop", "flex-layout.row#menu-bar"]
   },
 
-  //childres 1
+  //children 1
   "flex-layout.row#desktop": {
     "props": {
       "horizontalAlign": "center",
