@@ -3,7 +3,13 @@
       "children": [
         "image#Banner-Desktop",
         "rich-text#home-amazing-product",
-         "slider-layout#home-slider",
+         "slider-layout#home-slider-desktop",
+        //  "slider-layout#home-slider-desktop",
+        "rich-text#home-amazing-product",
+         "flex-layout.row#Product-sumary",
+         "rich-text#home-amazing-product",
+          "slider-layout#home-slider-desktop",
+        //  "slider-layout#home-slider-desktop",
         "rich-text#home-amazing-product",
          "flex-layout.row#Product-sumary"
 

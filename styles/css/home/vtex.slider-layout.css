@@ -1,79 +1,70 @@
 .paginationDot {
-    width: 44px !important;
-    height: 40px !important;
-    border-radius: 0;
-    background-color: transparent;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 2px;
+  width: 44px !important;
+  height: 40px !important;
+  border-radius: 0;
+  background-color: transparent;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 2px;
 }
 
 .paginationDot--isActive::before {
-    content: "";
-    position: absolute;
-    right: -8px;
-    width: 16px;
-    height: 16px;
-    background-color: #1d2734;
-    border-radius: 50%;
+  content: "";
+  position: absolute;
+  right: -8px;
+  width: 16px;
+  height: 16px;
+  background-color: #1d2734;
+  border-radius: 50%;
 }
 .paginationDot::after {
-    width: 44px;
-    height: 2px;
-    content: "";
-    font-size: 0;
-    background-color: #1d2734;
-    position: absolute;
+  width: 44px;
+  height: 2px;
+  content: "";
+  font-size: 0;
+  background-color: #1d2734;
+  position: absolute;
 }
 
 .sliderTrackContainer {
-    margin-bottom: 55px;
-    margin-left: 10px;
-    /*padding-left: 10px; */
-    /* width: 242px;
+  margin-bottom: 55px;
+  margin-left: 10px;
+  /*padding-left: 10px; */
+  /* width: 242px;
     height: 240.11px; */
-    border-radius: 8px;
+  border-radius: 8px;
 }
-
-
 
 .paginationDotsContainer {
-    /* margin-bottom: 15px; */
-    padding-bottom: 10px;
-  
+  /* margin-bottom: 15px; */
+  padding-bottom: 10px;
 }
 
-
-.caretIcon{
-    color:transparent
+.caretIcon {
+  color: transparent;
 }
 
-.containerNormal  {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
+.containerNormal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-
 
 /* ------------------------media quiery------------------ */
 
 @media (min-width: 1024px) {
-    .sliderTrackContainer {
-        /* margin-bottom: 25px;
-        margin-left: 10px;
-        margin-right: 10px;
-        border-radius: 8px;
-        padding: 20px 50px 40px 50px; */
-    }
-    
-.caretIcon{
-    color:black
-}
+  .sliderLayoutContainer--carousel {
+    /* background-color:aqua; */
+    padding-left: 40px !important;
+    margin-left: 53px !important;
+    padding-right: 40px !important;
+    margin-right: 53px !important;
+    width: auto;
+  }
 
-/* .paginationDot {
+  .paginationDot {
     width: 44px !important;
     height: 40px !important;
     border-radius: 0;
@@ -83,9 +74,9 @@
     align-items: center;
     justify-content: center;
     margin: 0 2px;
-}
-
-.paginationDot--isActive::before {
+  }
+  
+  .paginationDot--isActive::before {
     content: "";
     position: absolute;
     right: -8px;
@@ -93,33 +84,29 @@
     height: 16px;
     background-color: #1d2734;
     border-radius: 50%;
-}
-.paginationDot::after {
+  }
+  .paginationDot::after {
     width: 44px;
     height: 2px;
     content: "";
     font-size: 0;
     background-color: #1d2734;
     position: absolute;
-}
-
-.sliderTrackContainer {
-    margin-bottom: 25px;
+  }
+  
+  .sliderTrackContainer {
+    margin-bottom: 55px;
     margin-left: 10px;
     /*padding-left: 10px; */
     /* width: 242px;
-    height: 240.11px; 
+      height: 240.11px; */
     border-radius: 8px;
-}
-
-.paginationDotsContainer {
-    /* margin-bottom: 15px; 
-    padding-bottom: 10px;
+  }
   
-} */
-    
-} 
+  .paginationDotsContainer {
+    /* margin-bottom: 15px; */
+    padding-bottom: 10px;
+  }
 
 
-
-
+}

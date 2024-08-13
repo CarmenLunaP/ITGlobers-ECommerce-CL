@@ -21,6 +21,7 @@
 
 @media (min-width: 1024px) {
     .paragraph--amazing-product { 
+        /* background-color: aqua; */
         margin-top: 30px;
         padding-left: 75px;
 

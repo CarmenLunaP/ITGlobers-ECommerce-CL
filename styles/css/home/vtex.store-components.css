@@ -101,6 +101,11 @@
   border-radius: 3.04px 0px 0px 0px;
   border: 0.76px 0px 0px 0px;
   opacity: 0px;
+
+}
+
+:global(.vtex-store-components-3-x-discountInsideContainer){
+  display: none;
 }
 
 @media (min-width: 1024px) {

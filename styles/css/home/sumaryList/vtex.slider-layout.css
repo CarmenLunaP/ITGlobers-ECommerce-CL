@@ -10,7 +10,12 @@
   }
 
   .sliderLayoutContainer {
+    /* background-color: bisque; */
     padding-left: 40px;
+    margin-left: 53px;
     padding-right: 40px;
-  }
+    margin-right: 53px;
+  } 
+
 }
+
