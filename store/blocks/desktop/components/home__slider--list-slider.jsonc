@@ -1,0 +1,37 @@
+{
+  "slider-layout#home-slider-desktop": {
+    "title": " Slider image home ",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "centerMode": "to-the-left",
+      "centerModeSlidesGap": "15px",
+       "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": [
+      "image#imgSliderMobile",
+      "image#imgSliderMobile",
+      "image#imgSliderMobile",
+      "image#imgSliderMobile",
+      "image#imgSliderMobile"
+      // "info-card",
+      // "info-card",
+      // "info-card"
+     ]
+  },
+
+  "image#imgSliderMobile": {
+    "title": " image one ",
+    "props": {
+      "src": "assets/img/InfoCardSliderDesktop.jpg"
+    }
+  }
+
+   
+}
+  

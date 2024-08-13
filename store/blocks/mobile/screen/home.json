@@ -3,7 +3,11 @@
       "children": [
         "image#Banner",
         "rich-text#home-amazing-product",
-         "slider-layout#home-slider",
+         "slider-layout#home-slider-mobile",
+         "rich-text#home-amazing-product",
+         "flex-layout.row#Product-sumary",
+         "rich-text#home-amazing-product",
+         "slider-layout#home-slider-mobile",
          "rich-text#home-amazing-product",
          "flex-layout.row#Product-sumary"
 

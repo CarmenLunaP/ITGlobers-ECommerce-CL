@@ -2,6 +2,11 @@
 
 @media (min-width: 1024px) {
 
+  /* flex items-stretch justify-start mb0 mt0 pb0 pt0 vtex-flex-layout-0-x-flexRowContent  */
+  :global(.vtex-flex-layout-0-x-flexRowContent--menu-bar){
+    padding-right: 180px !important;
+  }
+
   .vtex-flex-layout-0-x-flexRow{
     width: fit-content;
   }

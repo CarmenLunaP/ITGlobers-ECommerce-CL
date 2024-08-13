@@ -2,7 +2,7 @@
 .wishlistIcon--favorite {
     background-image: url("/arquivos/favorite.svg") !important;
     /* width: 18px;*/
-    height: 18px; 
+    /* height: 18px;  */
     margin-right:5px;
       background-size: contain;
   background-repeat: no-repeat;
@@ -23,7 +23,7 @@
 .wishlistIconContainer--favorite :global(.vtex-button){
    border-color:black;
    width: 45px !important;
-   height: 35px;
+   height: 18px;
    margin-left: 35px;
    padding-left: 0px;
    /* border-radius: 4px; */
