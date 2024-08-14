@@ -1,0 +1,22 @@
+/* product sumari list descuento */
+
+:global(.vtex-discountInsideContainer) {
+  background-color: black !important;
+  width: Hug (70.22px) px;
+  height: Hug (25.11px) px;
+  padding: 4.56px 9.11px 4.56px 9.11px;
+  gap: 7.59px;
+  border-radius: 3.04px 0px 0px 0px;
+  border: 0.76px 0px 0px 0px;
+  opacity: 0px;
+
+}
+
+:global(.vtex-store-components-3-x-discountInsideContainer){
+  display: none;
+}
+
+@media (min-width: 1024px) {
+
+
+}
