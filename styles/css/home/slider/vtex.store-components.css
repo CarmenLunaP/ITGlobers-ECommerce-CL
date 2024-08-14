@@ -1,0 +1,67 @@
+
+/* Infocard del slider */
+
+.infoCardContainer {
+  display: flex;
+  text-align: left;
+  margin-left: 0px;
+}
+
+.infoCardImage {
+  width: 36.14px;
+}
+
+.infoCardContainer {
+  align-items: flex-start;
+}
+
+.infoCardImageContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+
+/* cuando la info card no sea imagen*/
+/* .infoCardHeadline {
+  font-size: 16px;
+}
+
+.infoCardBodyText {
+  font-size: 12px;
+  margin-top: 10%;
+}
+
+.info-card-MobilHerroHome .vtex-button {
+  background-color: black !important;
+  width: 100px !important;
+  height: 32px !important;
+  border-radius: 40px !important;
+  border: 0.65px solid transparent !important;
+  padding: 6.45px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.info-card-MobilHerroHome .vtex-button:hover {
+  background-color: black !important;
+}
+
+.info-card-MobilHerroHome .vtex-button .vtex-button__label {
+  color: white !important;
+}
+
+.info-card-MobilHerroHome .vtex-button .vtex-button__icon {
+  display: inline-block !important;
+  margin-left: 6.45px !important;
+} */
+
+
+
+@media (min-width: 1024px) {
+
+
+
+}

@@ -1,0 +1,52 @@
+/* Menu */
+
+.logoContainer {
+  padding-left: 0%;
+}
+
+.logoImage {
+  margin-top: 12px;
+
+  padding: 0%;
+}
+
+.searchIcon {
+  margin-top: 14px;
+  width: 18px;
+  height: 18px;
+}
+
+
+
+@media (min-width: 1024px) {
+  .logoImage {
+    margin-top: 0%;
+
+    padding: 0%;
+  }
+
+  /* color fondo de la lupa */
+  :global(.vtex-input__suffix) {
+    background-color: #f5f4f6;
+  }
+  .searchBarIcon {
+    color: #1d2734;
+    margin-bottom: 12px;
+    padding-right: 0%;
+    /* background-color: aqua; */
+  }
+
+  .searchBarContainer {
+    /* background-color: aqua; */
+    width: 280px;
+  }
+
+  /* border radio del seach bar */
+  :global(.vtex-input-prefix__group) {
+    border-radius: 40px !important;
+    border: transparent;
+  }
+
+ 
+
+}
