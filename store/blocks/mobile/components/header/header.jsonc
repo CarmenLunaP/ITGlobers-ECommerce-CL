@@ -5,7 +5,7 @@
    
      "flex-layout.row#mobile": {
        "children": [
-         "drawer",
+         "drawer#mobile",
          "logo",
          "flex-layout.col#spacer",
          "overlay-trigger#header__overlay--mobile",
@@ -19,9 +19,12 @@
          "fullWidth": true
        }
      },
-     "drawer": {
-       "children": []
-     },
+    //  "drawer": {
+    //    "children": [
+          
+         
+    //    ]
+    //  },
    
      //La lupa
      "overlay-trigger#header__overlay--mobile": {
